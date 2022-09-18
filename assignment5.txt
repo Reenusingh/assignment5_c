@@ -1,0 +1,140 @@
+// program 1
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        printf("Mysirg\n");
+        i++;
+      }
+      getch();
+}
+
+
+// program 2
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        printf("%d\n",i);
+        i++;
+      }
+      getch();
+}
+
+// program 3
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        printf("%d\n",n+1-i);
+        i++;
+      }
+      getch();
+}
+
+//program 5
+
+int main()
+{
+   int i=1,n,x;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        x=n*2-(i*2-1);
+        printf("%d\n",x);
+        i++;
+      }
+      getch();
+}
+
+//program 6
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        printf("%d\n",i*2);
+        i++;
+      }
+      getch();
+}
+
+
+//program 7
+
+int main()
+{
+   int i=1,n,x;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        x=(n*2+2)-i*2;
+        printf("%d\n",x);
+        i++;
+      }
+      getch();
+}
+
+// program 8
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        printf("%d\n",i*i);
+        i++;
+      }
+      getch();
+}
+
+
+// program 9
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=n)
+      {
+        printf("%d\n",i*i*i);
+        i++;
+      }
+      getch();
+}
+
+
+//program 10
+
+int main()
+{
+   int i=1,n;
+   printf("enter a number");
+   scanf("%d",&n);
+   while(i<=10)
+      {
+        printf("%d\n",n*i);
+        i++;
+      }
+      getch();
+}
